@@ -1,0 +1,43 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .card-header {
+    background-color: #2768c2;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-body {
+    padding: 10px;
+    color: #333;
+  }
+  
+  .card-body p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .card-body p:first-child {
+    margin-top: 5px;
+  }
+  
+  .card-body p:last-child {
+    margin-bottom: 5px;
+  }
+  
+  /* Warna semi cerah hangat */
+  .card-header, .card-body p {
+    color: #000000;
+  }
+  

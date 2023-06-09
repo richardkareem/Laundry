@@ -1,0 +1,65 @@
+.register-form-container {
+    background-color: #c6e2ff;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .register-form-container h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .input-container {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #fff;
+    width: 100%;
+  }
+  
+  button{
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff8c00;
+  }
+  .registerText {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+  }
+  .registerText:hover {
+    color: #ff8c00;
+    opacity: 0.8;
+    transition: 0.6s;
+    cursor:grab;
+  }
+  .wrapnav{
+    margin-bottom: 20px;
+  }
+  
